@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D444B1241406BD004D7F54 /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D444B0241406BD004D7F54 /* FlagsView.swift */; };
+		06D444B32415F564004D7F54 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D444B22415F564004D7F54 /* Pickers.swift */; };
+		06D444B52415F7C4004D7F54 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D444B42415F7C4004D7F54 /* Alerts.swift */; };
+		06D444B72415F8D1004D7F54 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D444B62415F8D1004D7F54 /* StepperView.swift */; };
+		06D444B92415FD97004D7F54 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D444B82415FD97004D7F54 /* DatePickerView.swift */; };
+		06DD6CEE24174B85003B9001 /* AnimatingDiagramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6CED24174B85003B9001 /* AnimatingDiagramView.swift */; };
 		06E2D38E2412BBB5002737A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2D38D2412BBB5002737A5 /* AppDelegate.swift */; };
 		06E2D3902412BBB5002737A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2D38F2412BBB5002737A5 /* SceneDelegate.swift */; };
 		06E2D3922412BBB5002737A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E2D3912412BBB5002737A5 /* ContentView.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D444B0241406BD004D7F54 /* FlagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
+		06D444B22415F564004D7F54 /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		06D444B42415F7C4004D7F54 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		06D444B62415F8D1004D7F54 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		06D444B82415FD97004D7F54 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		06DD6CED24174B85003B9001 /* AnimatingDiagramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingDiagramView.swift; sourceTree = "<group>"; };
 		06E2D38A2412BBB5002737A5 /* PracticSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E2D38D2412BBB5002737A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06E2D38F2412BBB5002737A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +114,12 @@
 				06E2D38D2412BBB5002737A5 /* AppDelegate.swift */,
 				06E2D38F2412BBB5002737A5 /* SceneDelegate.swift */,
 				06E2D3912412BBB5002737A5 /* ContentView.swift */,
+				06D444B22415F564004D7F54 /* Pickers.swift */,
+				06D444B42415F7C4004D7F54 /* Alerts.swift */,
+				06D444B62415F8D1004D7F54 /* StepperView.swift */,
+				06D444B82415FD97004D7F54 /* DatePickerView.swift */,
+				06D444B0241406BD004D7F54 /* FlagsView.swift */,
+				06DD6CED24174B85003B9001 /* AnimatingDiagramView.swift */,
 				06E2D3932412BBB7002737A5 /* Assets.xcassets */,
 				06E2D3982412BBB7002737A5 /* LaunchScreen.storyboard */,
 				06E2D39B2412BBB7002737A5 /* Info.plist */,
@@ -267,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D444B32415F564004D7F54 /* Pickers.swift in Sources */,
+				06DD6CEE24174B85003B9001 /* AnimatingDiagramView.swift in Sources */,
+				06D444B72415F8D1004D7F54 /* StepperView.swift in Sources */,
 				06E2D38E2412BBB5002737A5 /* AppDelegate.swift in Sources */,
 				06E2D3902412BBB5002737A5 /* SceneDelegate.swift in Sources */,
+				06D444B1241406BD004D7F54 /* FlagsView.swift in Sources */,
+				06D444B52415F7C4004D7F54 /* Alerts.swift in Sources */,
+				06D444B92415FD97004D7F54 /* DatePickerView.swift in Sources */,
 				06E2D3922412BBB5002737A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
